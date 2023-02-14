@@ -1,0 +1,98 @@
+/*  */
+
+/* Global Styling */
+::-webkit-scrollbar{
+    display: none;
+}
+::selection{
+    background: #e4e7eb;
+    color: #100d1e;
+}
+/* ::placeholder{
+    color: #100d1e;
+} */
+.btn{
+    border-radius: 0px !important;
+    font-size: 1.03rem;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+.form-control:focus, .form-control:active:focus, .form-control.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-control{
+    border-radius: 0px !important;
+}
+.form-select{
+    border-radius: 0px;
+}
+.form-select:focus, .form-select:active:focus, .form-select.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-check-input[type=checkbox]{
+    border-radius: 0px !important;
+}
+.form-check-input:focus, .form-check-input:active:focus, .form-check-input.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+/*  */
+.primary{
+    color: #cecece;
+}
+.secondary{
+    color: #ea3c52;
+}
+.tertiary{
+    color: #282634;
+}
+
+
+/* Navbar Section Styling */
+.navbar_section{
+    background: #141123;
+}
+.g_tech_logo{
+    width: 125px;
+    height: 35px;
+}
+.navbar_items .nav-link{
+    font-size: 1.2rem;
+    letter-spacing: 0.06rem;
+    color: #cecece;
+    margin-left: 0.5rem;
+    border-bottom: 3px solid #141123;
+    transform: skewX(0deg);
+    transition: 0.5s ease-out;
+}
+.navbar_items .active{
+    font-weight: 600;
+    border-bottom: 3px solid #ea3c52;
+    color: #ea3c52;
+    background: #282634;
+    /* transform: skewX(15deg); */
+}
+.navbar_items .nav-link:hover{
+    background: #282634;
+    border-bottom: 3px solid #ea3c52;
+    color: #ea3c52;
+    /* transform: skewX(10deg); */
+}
+
+
+/* Landing Page Section Styling */
+.landing_page_section{    
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.80)), url('../img/bg_2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    border-bottom: 1px solid #e8e8e8;
+}
