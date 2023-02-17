@@ -120,7 +120,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: #100d1e;
+    background: #cecece;
     border-radius: 0px;
     /* box-shadow: 2px 2px 5px #595959,
                 -2px -2px 5px #ffffff; */
@@ -135,12 +135,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: #282634; */
-    background-image: linear-gradient(45deg, #282634 0%,  #100d1e 100%);
+    background: #282634;
+    /* background-image: linear-gradient(45deg, #282634 0%,  #100d1e 100%); */
     padding: 1rem;
     border: 1px double #282634;
-    box-shadow: inset 2px 2px 2px #595959,
-                inset -2px -2px 2px #ffffff;
+    box-shadow: inset 2px 2px 20px #595959,
+                inset -2px -2px 20px #ffffff;
 }
 .total_count i{
     font-size: 1.7rem;
