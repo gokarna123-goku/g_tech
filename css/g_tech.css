@@ -234,6 +234,63 @@
     }
 }
 
+/* Status Section Styling */
+.status_section{
+    background: #e4e7eb;
+    border-bottom: 1px solid #cecece;
+}
+.status_data_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.status_box{
+    width: 260px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #cecece;
+    gap: 0.9rem;
+    transition: 0.4s ease-in;
+    cursor: pointer;
+}
+.status_box:hover{
+    box-shadow: 2px 2px 10px #9a95b5;
+}
+.status_img{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #141123;
+}
+.status_img i{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #184859;
+    filter: saturate(200%);
+    transition: transform 0.5s ease-out;
+}
+.status_box:hover .status_img i{
+    transform: scale(1.2);
+    color: #184859;
+    filter: saturate(500%);
+}
+.status_count{
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    color: #100d1e;
+}
+.status_title{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 
 
 
