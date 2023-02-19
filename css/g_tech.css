@@ -70,6 +70,21 @@
     color: #9a95b5;
 }
 
+/*  */
+.tag_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.18rem;
+}
+.hr_line{
+    width: 8%;
+    height: 2.0px;
+    background: #ea3c52;
+    border-radius: 10px;
+}
+
 
 /* Navbar Section Styling */
 .navbar_section{
@@ -354,6 +369,112 @@
     }
 }
 
+
+/* About Us Banner Section Styling */
+.about_us_banner_section{
+    background: linear-gradient(to right, rgba(19, 11, 60, 0.90), rgba(6, 32, 42, 0.88), rgba(6, 32, 42, 0.85), rgba(19, 11, 60, 0.91), rgba(24, 72, 89, 1)), url('../img/about_banner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.about_banner_section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+}
+.about_banner_box{
+    width: 350px;
+    height: auto;
+    background: #e4e7eb;
+    box-shadow: 4px 4px 10px #100d1e;
+    border-bottom: 4px solid #ea3c52;
+    opacity: 0.9;
+    cursor: pointer;
+    transition: opacity 0.68s ease-out;
+}
+.about_banner_box:hover{
+    opacity: 1;
+}
+.banner_data{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.banner_data .banner_icon{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ea3c52;
+    transition: transform 0.68s ease-out;
+}
+.about_banner_box:hover .banner_data .banner_icon{
+    transform: scale(1.2);
+}
+.banner_data .banner_title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ea3c52;
+    letter-spacing: 0.05rem;
+}
+
+
+
+/* Services Section Styling */
+.services_section{
+    width: 100%;
+    background: #fbfbfb;
+    border-top: 1px solid #cecece;
+}
+.services_boxes_section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.service_box{
+    width: 320px;
+    height: auto;
+    background: #e4e7eb;
+    transition: all 0.5s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.service_icon{
+    width: 50px;
+    height: 50px;
+    background: #9a95b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #cecece;
+    transition: 0.68s ease-out;
+}
+.service_box:hover .service_icon{
+    background: #7d7896;
+}
+.service_icon i{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #100d1e;
+    transition: transform 0.68s ease;
+}
+.service_box:hover .service_icon i{
+    transform: scale(1.2);
+}
+.service_title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.09rem;
+    color: #100d1e;
+}
+.service_description{
+    font-size: 0.97rem;
+    color: #7d7896;
+}
 
 
 
