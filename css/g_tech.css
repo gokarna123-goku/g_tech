@@ -518,14 +518,15 @@
     gap: 0.5rem;
     flex-wrap: wrap;
 }
+/* background: linear-gradient(to right, rgba(19, 11, 60, 0.98), rgba(6, 32, 42, 0.96), rgba(6, 32, 42, 0.92), rgba(19, 11, 60, 0.92), rgba(24, 72, 89, 0.91)), url('../img/g1.png');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover; */
+
 .expertise_box{
-    background: linear-gradient(to right, rgba(19, 11, 60, 0.90), rgba(6, 32, 42, 0.88), rgba(6, 32, 42, 0.85), rgba(19, 11, 60, 0.91), rgba(24, 72, 89, 1)), url('../img/g1.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 350px;
     height: auto;
-    border: 1px solid #e4e7eb;
+    box-shadow: 0.001px 0.001px 5px #e4e7eb;
 }
 .expertise_img{
     width: 100%;
