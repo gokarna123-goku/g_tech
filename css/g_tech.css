@@ -510,12 +510,19 @@
 }
 
 /* Expertise Section Styling */
+.expertise_section{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #cecece;
+    /* background: #141123; */
+}
 .expertise_boxes{
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    row-gap: 4.5rem;
+    column-gap: 2.7rem;
     flex-wrap: wrap;
 }
 /* background: linear-gradient(to right, rgba(19, 11, 60, 0.98), rgba(6, 32, 42, 0.96), rgba(6, 32, 42, 0.92), rgba(19, 11, 60, 0.92), rgba(24, 72, 89, 0.91)), url('../img/g1.png');
@@ -523,27 +530,23 @@ background-position: center center;
 background-repeat: no-repeat;
 background-size: cover; */
 
-.expertise_box{
-    width: 350px;
-    height: auto;
-    box-shadow: 0.001px 0.001px 5px #e4e7eb;
-}
 .expertise_img{
-    width: 100%;
-    height: 15vh;
+    width: 90%;
+    max-height: 10vh;
+    filter: saturate(0%);
+    transition: 0.5s ease-out;
+    cursor: pointer;
 }
-.expertise_title{
+.expertise_img:hover{
+    filter: saturate(200%);
+}
+
+
+/* How we Work Section Styling */
+.working_mechanism_section{
     width: 100%;
     height: auto;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
-}
-.expertise_title h5{
-    font-size: 1.3rem;
-    font-weight: 600;
-    letter-spacing: 0.15rem;
+    border-bottom: 1px solid #cecece;
 }
 
 
