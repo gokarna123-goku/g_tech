@@ -425,7 +425,7 @@
 .services_section{
     width: 100%;
     background: #fbfbfb;
-    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
 }
 .services_boxes_section{
     width: 100%;
@@ -508,7 +508,41 @@
     color: #7d7896;
 }
 
-
+/* Expertise Section Styling */
+.expertise_boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.expertise_box{
+    background: linear-gradient(to right, rgba(19, 11, 60, 0.90), rgba(6, 32, 42, 0.88), rgba(6, 32, 42, 0.85), rgba(19, 11, 60, 0.91), rgba(24, 72, 89, 1)), url('../img/g1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: auto;
+    border: 1px solid #e4e7eb;
+}
+.expertise_img{
+    width: 100%;
+    height: 15vh;
+}
+.expertise_title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.expertise_title h5{
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+}
 
 
 /*  */
