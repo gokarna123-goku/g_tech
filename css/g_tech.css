@@ -548,6 +548,10 @@ background-size: cover; */
     height: auto;
     border-bottom: 1px solid #cecece;
 }
+.working_mechanism_boxes{
+    width: 100%;
+    height: auto;
+}
 
 
 /*  */
