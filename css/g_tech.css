@@ -61,7 +61,8 @@
 
 /*  */
 .primary{
-    color: #cecece;
+    /* color: #cecece; */
+    color: #f0f0f0;
 }
 .secondary{
     color: #ea3c52;
@@ -545,37 +546,56 @@ background-size: cover; */
 /* How we Work Section Styling */
 .working_mechanism_section{
     width: 100%;
-    height: 35vh;
+    height: 85vh;
     border-bottom: 1px solid #cecece;
 }
 .working_line{
     width: 100%;
     height: 7px;
-    background: #184859;
+    background: #ea3c52;
     position: relative;
 }
-.working_mechanism_boxes{
+.working_mechanism_box_section{
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    position: absolute;
+    top: -12px;
+}
+.working_mechanism_box{
+    width: 295px;
+    height: 50vh;
+}
+.working_indicator_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.working_indicator_section .working_mechanism_title{
+    width: auto;
+    height: auto;
+    background: #ea3c52;
+}
+.working_indicator_section .working_arrow{
+    width: 4px;
+    height: 6vh;
+    background: #ea3c52;
+}
+.working_detail_box{
     width: 100%;
     height: auto;
-}
-.working_box{
-    width: 350px;
-    height: auto;
     background: #184859;
+    /* border-top: 4px solid #ea3c52; */
 }
-.working_indicator{
-    position: absolute;
-    top: -7px;
+.working_img{
+    width: 100%;
+    height: 32vh;
+    /* object-fit: cover; */
 }
-.working_circle{
-    width: 20px;
-    height: 20px;
-    background: #184859;
-}
-.working_arrow{
-    width: 2px;
-    height: 12vh;
-    background: #184859;
+.working_data p{
+    font-size: 0.95rem;
 }
 
 
