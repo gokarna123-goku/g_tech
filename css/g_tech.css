@@ -661,6 +661,55 @@ background-size: cover; */
     height: auto;
     background: #100d1e;
 }
+.footer_grid{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+.company_info{
+    width: 30%;
+    height: auto;
+}
+.footer_company_logo{
+    width: 200px;
+    height: 5vh;
+}
+.company_social_accounts{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.social_account{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid #184859;
+    transition: 0.68s ease-out;
+}
+.social_account:hover{
+    background: #184859;
+}
+.social_account i{
+    color: #cecece;
+    font-size: 1.1rem;
+}
+
+.footer_hr{
+    background: #5c5b5b;
+}
+.copy_section{
+    width: 100%;    
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 /*  */
