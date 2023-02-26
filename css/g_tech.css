@@ -655,5 +655,12 @@ background-size: cover; */
     border-radius: 50%;
 }
 
+/* Footer Section */
+.footer_section{
+    width: 100%;
+    height: auto;
+    background: #100d1e;
+}
+
 
 /*  */
