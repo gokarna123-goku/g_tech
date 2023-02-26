@@ -674,7 +674,7 @@ background-size: cover; */
 }
 .footer_company_logo{
     width: 200px;
-    height: 5vh;
+    height: 6vh;
 }
 .company_social_accounts{
     display: flex;
@@ -710,6 +710,15 @@ background-size: cover; */
     justify-content: space-between;
     align-items: center;
 }
+.copy_section p{
+    color: #707070;
+}
 
+
+/* ---========================================================================--- */
+/* Media Queries */
+@media screen and (max-width: 478px ) and (min-width: 375px) {
+    /* Landing Page Responsive */
+}
 
 /*  */
