@@ -604,4 +604,18 @@ background-size: cover; */
 }
 
 
+/* Our Latest Blog Section */
+.our_blog_section{
+    width: 100%;
+    height: auto;
+}
+.blogs_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+
 /*  */
