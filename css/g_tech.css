@@ -694,7 +694,17 @@ background-size: cover; */
     color: #ea3c52;
     font-size: 1.0rem;
     font-weight: 500;
+    transition: 1s ease-out;
 }
+.blog_detail_btn:hover{
+    color: #ea3c52;
+    letter-spacing: 0.04rem;
+    transition: all 0.5s ease-out;
+}
+/* .blog_detail_btn:hover::after{
+    content: '...';
+    color: #ea3c52;
+} */
 
 /* Footer Section */
 .footer_section{
