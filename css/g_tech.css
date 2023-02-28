@@ -604,6 +604,137 @@ background-size: cover; */
     border-bottom: 1px solid #cecece;
 }
 
+.our_work_lists{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.work_box{
+    width: 48.5%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.9983rem;
+    background: #184859;
+    cursor: pointer;
+    border: 1px solid #184859;
+}
+.work_img_box{
+    position: relative;
+    width: 35%;
+    height: auto;
+    overflow: hidden;
+}
+.work_img{
+    width: 100%;
+    height: 22.5vh;
+    filter: saturate(300%);
+    /* object-fit: cover;
+    object-position: center; */
+    transition: transform 1s ease-out;
+}
+.work_box:hover .work_img_box .work_img{
+    transform: scale(2) skew(-25deg);
+}
+.work_category{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ea3c52;
+}
+.work_category p{
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+    color: #fbfbfb;
+}
+.work_content{
+    width: 65%;
+    height: auto;
+}
+.working_date{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+.project_date{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    /* background: #498398; */
+    /* background: #3a6271; */
+    background: #335562;
+    /* background: #2e4c57; */
+    cursor: pointer;
+}
+.project_date i{
+    font-size: 0.77rem;
+    color: #cecece;
+}
+.project_date p{    
+    font-size: 0.76rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    color: #cecece;
+}
+.work_indicator{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.work_indicator p{  
+    font-size: 0.76rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    color: #ea3c52;
+}
+.dash_line{
+    width: 40px;
+    height: 1.5px;
+    background: #ea3c52;
+    border-radius: 10px;
+}
+.work_content .work_title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    line-height: 1.5rem;
+    color: #f0f0f0;
+}
+.technologies_used{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.technology_title{
+    font-size: 0.989rem;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+    color: #cecece;
+}
+.technologies_lists{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.7rem;
+}
+.technologies_lists .technology_tag{
+    /* background: #ccdbef; */
+    /* background: #b8d0f0; */
+    background: #698089;
+    font-size: 0.66rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    border: 1px solid #cecece;
+    color: #282634;
+}
+
 
 /* Our Latest Blog Section */
 .our_blog_section{
