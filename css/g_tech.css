@@ -756,7 +756,39 @@ background-size: cover; */
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 61% 76%, 51% 100%, 42% 76%, 0% 75%);
     color: rgb(239, 239, 239);
     font-weight: bold;
-    background-image: linear-gradient(45deg, #fe4fe1 0%, #3f00fe 100%);
+    background-image: linear-gradient(22deg, #ea3c52 0%, #100d1e 50%, #0075a0 100%);
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 0.3rem;
+    row-gap: 0.01rem;
+}
+.price .price_tag{
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #cecece;
+}
+.price .price_title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #fbfbfb;
+}
+.plan_duration{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 0.989rem;
+    font-weight: 500;
+    letter-spacing: 0.07rem;
+    color: #cecece;
+}
+.price_category{
+    font-size: 1.2rem;
+    color: #ea3c52;
 }
 
 
