@@ -743,15 +743,29 @@ background-size: cover; */
 .pricing_section{
     width: 100%;
     height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
 }
-.pricing_box{
+.pricing_section .pricing_box{
     width: 350px;
     height: auto;
-    background: #184859;
+    background: #e4e7eb;
+    border: 1px solid #cecece;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.15);
+    transition: 0.50s ease-out;
+    cursor: pointer;
+}
+.pricing_section .pricing_box:hover{
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.35);
+}
+.pricing_section .active{
+    box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.35);
 }
 .price_box{
     width: 100%;
     height: 20vh;
+    position: relative;
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 61% 76%, 51% 100%, 42% 76%, 0% 75%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 61% 76%, 51% 100%, 42% 76%, 0% 75%);
     color: rgb(239, 239, 239);
@@ -764,6 +778,17 @@ background-size: cover; */
     justify-content: end;
     column-gap: 0.3rem;
     row-gap: 0.01rem;
+}
+.recommended_price_plan{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ae890d;
+    font-size: 0.89rem;
+    border-bottom-right-radius: 10px;
 }
 .price .price_tag{
     font-size: 1.2rem;
@@ -787,9 +812,52 @@ background-size: cover; */
     color: #cecece;
 }
 .price_category{
-    font-size: 1.2rem;
+    position: absolute;
+    bottom: 32%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: #00bbff;
+}
+.plan_type_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan_type_title{
+    font-size: 0.999rem;
+    font-weight: 550;
+    letter-spacing: 0.01rem;
+    color: #141123;
+}
+.plan_type{
+    font-size: 0.999rem;
+    font-weight: 600;
+}
+.plan_type_list .fa-circle-check{
+    color: #0075a0;
+}
+.plan_type_list .fa-circle-xmark{
     color: #ea3c52;
 }
+.btn_section .btn_select_plan{
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(-22deg, #ea3c52 0%, #100d1e 50%, #0075a0 100%);
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: #fbfbfb;
+    transition: 0.68s ease-out;
+}
+.btn_section .btn_select_plan:hover{
+    background-image: linear-gradient(22deg, #ea3c52 0%, #100d1e 50%, #0075a0 100%);
+}
+.btn_section .active{
+    background-image: linear-gradient(22deg, #ea3c52 0%, #100d1e 50%, #0075a0 100%);
+}
+
 
 
 /* Our Latest Blog Section */
