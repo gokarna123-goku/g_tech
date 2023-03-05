@@ -492,6 +492,9 @@
     -webkit-text-stroke-width: 0.00001px;
     -webkit-text-stroke-color: #cecece;
     color: transparent;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 .service_box:hover .service_icon{
     background: #7d7896;
@@ -739,6 +742,7 @@ background-size: cover; */
 .our_pricing_section{
     width: 100%;
     height: auto;
+    border-bottom: 1px solid #cecece;
 }
 .pricing_section{
     width: 100%;
@@ -859,11 +863,28 @@ background-size: cover; */
 }
 
 
+/* Our Partners or Sponsors Section */
+.partner_section{
+    width: 100%;
+    height: 30vh;
+    background-image: linear-gradient(-22deg, #ffcbd2 0%, #bcadff 50%, #9ce5ff 100%);
+    /* opacity: 0.8; */
+}
+
+
+/* Our Amazing Team Section */
+.our_team_section{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #cecece;
+}
+
 
 /* Our Latest Blog Section */
 .our_blog_section{
     width: 100%;
     height: auto;
+    border-bottom: 1px solid #cecece;
 }
 .blogs_section{
     width: 100%;
@@ -1060,6 +1081,14 @@ background-size: cover; */
 }
 .copy_section p{
     color: #707070;
+}
+
+
+/* Contact US Section */
+.contact_us_section{
+    width: 100%;
+    height: auto;
+    background: #fbfbfb;
 }
 
 
