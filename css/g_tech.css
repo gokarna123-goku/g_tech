@@ -1090,6 +1090,73 @@ background-size: cover; */
     height: auto;
     background: #fbfbfb;
 }
+.contact_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    background: #e4e7eb;
+}
+.our_contact_info{
+    width: 40%;
+    height: auto;
+}
+.contact_tag_title{
+    font-size: 2.0rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #282634;
+}
+.contact_title{
+    font-size: 1.973rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    background: -webkit-linear-gradient(180deg, #ea3c52 0%, #100d1e 50%, #0075a0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.contact_description{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #5c5b5b;
+}
+.contact_data{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.contact_data i{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #5c5b5b;
+}
+.contact_data p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #5c5b5b;
+}
+.contact_form_section{
+    width: 60%;
+    height: auto;
+}
+.contact_btn{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: #100d1e;
+    color: #e4e7eb;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 /* ---========================================================================--- */
