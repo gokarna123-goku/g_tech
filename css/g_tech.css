@@ -1165,7 +1165,9 @@ background-size: cover; */
 .contact_data i{
     font-size: 1.1rem;
     font-weight: 600;
-    color: #5c5b5b;
+    background: -webkit-linear-gradient(180deg, #ea3c52 0%, #100d1e 50%, #0075a0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .contact_data p{
     font-size: 1.1rem;
